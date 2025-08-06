@@ -29,7 +29,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
 ]
 
-ROOT_URLCONF = 'chatbot_api.urls'
+ROOT_URLCONF = 'chatbot.urls'
 
 TEMPLATES = [
     {
@@ -45,7 +45,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'chatbot_api.wsgi.application'
+WSGI_APPLICATION = 'chatbot.wsgi.application'
 
 DATABASES = {
     'default': {
